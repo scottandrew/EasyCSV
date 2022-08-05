@@ -6,6 +6,6 @@ final class EasyCSVTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(EasyCSV().text, "Hello, World!")
+        //XCTAssertEqual(EasyCSV().text, "Hello, World!")
     }
 }
