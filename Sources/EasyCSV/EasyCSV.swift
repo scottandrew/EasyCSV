@@ -11,7 +11,7 @@ public struct EasyCSV: AsyncSequence, AsyncIteratorProtocol {
     private let quoteCharacter: Character = "\""
     private var lineNumber = 0
     
-    init(url: URL, seperator: Character = ",") {
+    public init(url: URL, seperator: Character = ",") {
         self.url = url
         self.seperator = seperator
         self.lineIterator = url.lines.makeAsyncIterator()
