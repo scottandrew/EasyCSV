@@ -8,6 +8,6 @@
 import Foundation
 
 public struct Line {
-    let lineNumber: Int
-    let data: [String?]
+    public let lineNumber: Int
+    public let data: [String?]
 }
